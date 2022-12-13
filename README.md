@@ -2,7 +2,7 @@
  
 ## About The Project
 
-This is a Restful API repository for Koleksi Resep. This Restful API is built using ExpressJS and PostgreSQL.
+This is a Restful API repository for collection recipe. This Restful API is built using ExpressJS and PostgreSQL.
 
 ### Technology Used
 
@@ -16,8 +16,7 @@ This is a Restful API repository for Koleksi Resep. This Restful API is built us
 
 ### Installation
 
-- Clone this project with `git clone 
-- https://github.com/sukron21/excercise
+- Clone this project with `git clone : https://github.com/sukron21/excercise
 - Install package required with `npm install`
 - Setting .env
 
@@ -28,6 +27,7 @@ DB_USER=
 DB_PASSWORD=
 DB_NAME=
 DB_PORT=
+PORT=
 
 # jwt
 JWT_SECRET=
@@ -35,13 +35,53 @@ JWT_SECRET=
 
 
 ```
+### Structure Folder 
 
+<p id='structure-folder'>Backend</p>
+<ul>
+  <li>photofood || <span><b><i>Folder for save recipe image in local storage</i></b></span></li>
+  <li>public || <span><b><i>Folder for save user image in local storage</i></b></span></li>
+  <li>src</li>
+  <ul>
+  <li>config ||<span><b><i>Folder for database setting to connect with backend.</i></b></span></li>
+    <li>controller ||<span><b><i>You can store various needs for this website, such as images, styles, javascript, and others.</i></b></span></li>
+    <li>helper ||<span><b><i>This folder to help the user such as for example response.</i></b></span></li>
+    <li>Middlware ||<span><b><i>This folder is to help users deal with things related to jwtauth cloudinary and multer.</i></b></span></li>
+    <li>model ||<span><b><i>In this folder we use a query so that user input enters the database.</i></b></span></li>
+    <li>router ||<span><b><i>The router is used to set the endpoint of this application.</i></b></span></li>
+  </ul>
+</ul>
+<a href='#table-of-content'>Back to top</a>
+<hr/>
+
+### Installation Guide 
+
+<p id='installation-guide'>Backend</p>
+- Clone this project with `git clone : https://github.com/sukron21/excercise
+- Install package required with `npm install`
+<ol type="1">
+  <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or 
+# database
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_NAME=
+DB_PORT=
+PORT=
+# jwt
+JWT_SECRET=.</li>
+  <li>Continue with database creation.</li>
+  <li>You can first import the postman documentation contained in this repo and pay attention to the fields in each POST request.
+</li>
+  <li>To run the server that has been set, use the <b>npm run dev command</b>.</li>
+  <li>When there is a description of the Server running on Port (with the port you have specified), the API is ready to use.</li>
+</ol>
+<hr />
+### Package
+check in file package.json
 ### Executing program
 
 - Run program with  `npm  start` for production
-
-
-
 
 ### /user
 
@@ -71,10 +111,10 @@ JWT_SECRET=
 
 ### /recipe
 
-- GET | `/recipes`
+- GET | `/recipe`
   - Body: None
   - Desc: Get all recipe data
-- GET | `/recipes/:id`
+- GET | `/recipe/:id`
   - Body: None
   - Token: Required
   - Desc: Get recipe data details based on the entered id

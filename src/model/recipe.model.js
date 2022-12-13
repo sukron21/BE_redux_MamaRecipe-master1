@@ -127,7 +127,7 @@ const recipeModel = {
   },
 
   store: ({ title, ingredients, photo, photo_pub_id, photo_url, photo_secure_url }) => {
-    // console.log(title, ingredients, photo, photo_pub_id, photo_url, photo_secure_url)
+    console.log(title, ingredients, photo, photo_pub_id, photo_url, photo_secure_url)
     return new Promise((resolve, reject) => {
       db.query(`INSERT INTO tb_recipes ( title, ingredients, photo, created_at, photo_pub_id, photo_url, photo_secure_url) VALUES  ('${title}', '${ingredients}', '${photo}', now(), '${photo_pub_id}', '${photo_url}', '${photo_secure_url}')`,
         (err, res) => {
