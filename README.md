@@ -14,27 +14,7 @@ This is a Restful API repository for collection recipe. This Restful API is buil
 
 ## Getting Started
 
-### Installation
 
-- Clone this project with `git clone : https://github.com/sukron21/excercise
-- Install package required with `npm install`
-- Setting .env
-
-```bash
-# database
-DB_HOST=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
-DB_PORT=
-PORT=
-
-# jwt
-JWT_SECRET=
-
-
-
-```
 ### Structure Folder 
 
 <p id='structure-folder'>Backend</p>
@@ -61,6 +41,7 @@ JWT_SECRET=
 - Install package required with `npm install`
 <ol type="1">
   <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or 
+  
 # database
 DB_HOST=
 DB_USER=
