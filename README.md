@@ -154,6 +154,6 @@ check in file package.json
 Contributors names and contact info:
 
 1. Rahmat Furqon
-  [Repository Frontend](https://github.com/sukron21/FE_FIX_mamaRecipe)
+-[Repository Frontend](https://github.com/sukron21/FE_FIX_mamaRecipe)
 
 - [Linkedin](www.linkedin.com/in/furqon-rahmat)
