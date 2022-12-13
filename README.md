@@ -40,7 +40,7 @@ This is a Restful API repository for collection recipe. This Restful API is buil
 - Clone this project with `git clone : https://github.com/sukron21/excercise
 - Install package required with `npm install`
 <ol type="1">
-  <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or
+  <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or</li>
 
 ### database
 <p>DB_HOST=</p>
@@ -51,7 +51,7 @@ This is a Restful API repository for collection recipe. This Restful API is buil
 <p>PORT=</p>
 
 ### jwt
-<li>JWT_SECRET=.</li>
+<p>JWT_SECRET=</p>
 
   <li>Continue with database creation.</li>
   <li>You can first import the postman documentation contained in this repo and pay attention to the fields in each POST request.
