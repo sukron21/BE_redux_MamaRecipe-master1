@@ -41,15 +41,15 @@ This is a Restful API repository for collection recipe. This Restful API is buil
 - Install package required with `npm install`
 <ol type="1">
   <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or 
-  
-# database
+
+### database
 DB_HOST=
 DB_USER=
 DB_PASSWORD=
 DB_NAME=
 DB_PORT=
 PORT=
-# jwt
+### jwt
 JWT_SECRET=.</li>
   <li>Continue with database creation.</li>
   <li>You can first import the postman documentation contained in this repo and pay attention to the fields in each POST request.
