@@ -43,14 +43,15 @@ This is a Restful API repository for collection recipe. This Restful API is buil
   <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or
 
 ### database
-DB_HOST=
-DB_USER=
-DB_PASSWORD=
-DB_NAME=
-DB_PORT=
-PORT=
+<li>DB_HOST=</li>
+<li>DB_USER=</li>
+<li>DB_PASSWORD=</li>
+<li>DB_NAME=</li>
+<li>DB_PORT=</li>
+<li>PORT=</li>
+
 ### jwt
-JWT_SECRET=.</li>
+<li>JWT_SECRET=.</li>
 
   <li>Continue with database creation.</li>
   <li>You can first import the postman documentation contained in this repo and pay attention to the fields in each POST request.
