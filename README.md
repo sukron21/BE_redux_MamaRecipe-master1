@@ -43,12 +43,12 @@ This is a Restful API repository for collection recipe. This Restful API is buil
   <li>Your first step is to add the .env settings contained in the backend folder, with the examples contained in the .env-example or
 
 ### database
-<li>DB_HOST=</li>
-<li>DB_USER=</li>
-<li>DB_PASSWORD=</li>
-<li>DB_NAME=</li>
-<li>DB_PORT=</li>
-<li>PORT=</li>
+<p>DB_HOST=</p>
+<p>DB_USER=</p>
+<p>DB_PASSWORD=</p>
+<p>DB_NAME=</p>
+<p>DB_PORT=</p>
+<p>PORT=</p>
 
 ### jwt
 <li>JWT_SECRET=.</li>
