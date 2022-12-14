@@ -154,6 +154,9 @@ check in file package.json
 Contributors names and contact info:
 
 1. Rahmat Furqon
--[Repository Frontend](https://github.com/sukron21/FE_FIX_mamaRecipe)
+
+- [deploy-vercel](https://fe-redux-mama-recipe.vercel.app/)
+
+- [Repository Frontend](https://github.com/sukron21/FE_FIX_mamaRecipe)
 
 - [Linkedin](www.linkedin.com/in/furqon-rahmat)
