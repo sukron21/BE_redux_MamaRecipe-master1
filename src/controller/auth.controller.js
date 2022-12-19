@@ -9,14 +9,14 @@ module.exports = {
       // image
       // const photo = req.file.filename
       // tangkap data dari body
-      const { username, email, password, phone } = req.body
+      const { name, email, password, phone } = req.body
       bcyrpt.hash(password, 10, (err, hash) => {
         if (err) {
           failed(res, err.message, 'failed', 'fail hash password')
         }
         // console.log(hash)
         const data = {
-          username, email, password: hash, phone, level: 1
+          name, email, password: hash, phone, level: 1
         }
         userModel.register(data).then((result) => {
           success(res, result, 'success', 'register success')
