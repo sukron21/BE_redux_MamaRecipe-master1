@@ -31,9 +31,9 @@ const userController = {
       })
   },
   insert: (req, res) => {
-    const { username, email, password, phone, photo, level } = req.body
+    const { name, email, password, phone, photo, level } = req.body
     // const photo = req.file.filename
-    userModel.store(username, email, password, phone, photo, level).then((result) => {
+    userModel.store(name, email, password, phone, photo, level).then((result) => {
       success(res, null, 'success', 'insert user success')
     }).catch((err) => {
       failed(res, err.message, 'failed', 'insert user failed')
